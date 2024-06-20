@@ -1,0 +1,36 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8075FF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.edit {
+    outline: none;
+    padding: 1rem 0;
+    height: 1rem;
+    width: 10rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.iconsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon {
+    height: 1rem;
+    width: 1rem;
+}

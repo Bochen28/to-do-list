@@ -1,0 +1,22 @@
+.addForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.addForm input {
+    padding: 0.75rem 1rem;
+    outline: none;
+    font-size: 20px;
+    background: #ffffff;
+    border: none;
+}
+
+.addForm button {
+    padding: 0.75rem;
+    border: none;
+    background: #8075FF;
+    font-size: large;
+    color: #ffffff;
+    cursor: pointer;
+}

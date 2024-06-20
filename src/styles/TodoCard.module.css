@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: fit-content;
+  padding: 2.5rem 7.5rem;
+  background: #6320EE;
+}
+
+.showButton {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+@media (max-width: 30rem) {
+  .card {
+    padding: 2rem;
+  }
+}
